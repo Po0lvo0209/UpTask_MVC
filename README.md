@@ -20,12 +20,13 @@ npm run start
 ###### Agregar un usuario a la base de datos para poder acceder
 ###### admin = 1 / usuario = 0
 #### Si deseas crear un usuario por la interfaz 
-#### Crear una cuenta de MAILTRAP y cambiar los siguientes valores: 
+#### Crear una cuenta de MAILTRAP y cambiar los siguientes valores para la verificación del usuario: 
 
 ```bash
-        $mail->Host = 'sandbox.smtp.mailtrap.io';
+        $mail->Host = 's###.mailtrap.io';
         $mail->SMTPAuth = true;
-        $mail->Port = 2525;
-        $mail->Username = '37d3ca567f357b';
-        $mail->Password = 'b8e7311bd05b7f';
+        $mail->Port = ##;
+        $mail->Username = '##';
+        $mail->Password = '##';
 ```
+
